@@ -2,60 +2,98 @@
 <html lang="en">
     
     <head>
-        <meta charset="utf-8" />
+        <meta charset="utf-8"/>
         <title> Layout 7 </title>
         <style>
+            
             div {
                 outline: 1px solid black;
             }
-            
             #container {
-                display: grid;
                 margin: auto;
                 max-width: 800px;
             }
             
-            #blue {
+            #blue1 {
+                display: grid;
                 background-color: blue;
-                height: 50px
+                grid-template-columns: 20% 70%;
+                height: 30px;
+                padding: 13px;
+            }
+            
+            #green1 {
+                background-color: lime;
+                height: 400px;
+                
+            }
+            
+            #red1 {
+                display: grid;
+                background-color: red;
+                grid-template-columns: 50% 50%;
+                height: 300px;
+                padding: 20px;
+                
+            }
+            
+            #blue2 {
+                display: grid;
+                background-color: blue;
+                grid-template-columns: 50% 50%;
+                height: 600px;
+                padding: 20px;
+            }
+            
+            #green2 {
+                display: grid;
+                background-color: lime;
+                grid-template-columns: 50% 50%;
+                height: 500px;
+                padding: 20px;
+            }
+            
+            #red2 {
+                display: grid;
+                background-color: red;
+                grid-template-columns: 50% 50%;
+                height: 500px;
+                padding: 20px;
             }
             
             .yellow {
                 background-color: yellow;
-                height: 20px 
+                height: 20px; 
             }
             
-            #green {
-                background-color: green;
-                margin:
+            #blue3 {
+                background-color: blue;
+                height: 30px;
             }
-               
+            
+        
             
             
             
             
             
-            
-            
-            
-            
-            
-
         </style>
     </head>
     
     <body>
         <div id="container">
-            <div id="blue">
+            <div id="blue1">
                <div class="yellow"></div>
                <div class="yellow"></div>
-            </div>
-            <div id="green"></div>
-            <div id="red">
+         </div>
+            <div id="green1"></div>
+         </div>
+            <div id="red1">
                <div class="yellow"></div>
                <div class="yellow"></div>
                <div class="yellow"></div>
-            <div id="blue">
+         </div>
+            <div id="blue2">
          </div>
                <div class="yellow"></div>
                <div class="yellow"></div>
@@ -70,18 +108,19 @@
                <div class="yellow"></div>
                <div class="yellow"></div>
                <div class="yellow"></div>
-            <div id="green">
+            <div id="green2">
          </div>
                <div class="yellow"></div>
                <div class="yellow"></div>
                <div class="yellow"></div>
-            <div id="red">
+            <div id="red2">
+         </div>
                <div class="yellow"></div>
                <div class="yellow"></div>
                <div class="yellow"></div>
          </div>
-            <div id="blue"></div>
-        </div>
+            <div id="blue3"></div>
+      </div>
     </body>
     
 </html>
